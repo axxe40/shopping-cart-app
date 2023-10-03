@@ -21,7 +21,7 @@ h1 {
   text-align: center;
   background-color: #283618;
   width: 100%;
-  color: rgb(247, 213, 169);
+  color: rgb(251, 212, 163);
   font-size: 3rem;
   padding: 2rem 0 2rem;
   margin-block: 0;
@@ -30,7 +30,7 @@ h1 {
 }
 
 .arrow{
-margin-left: 50px; 
+margin-left: 5rem; 
 display: block;
 padding: 0.3rem 0;
 text-decoration: none;
@@ -53,14 +53,16 @@ color: black;
 margin-left: 4rem; 
 text-decoration: none;
 padding: 0.5rem 0;
-font-Size: 20px;
+font-Size: 21px;
+font-weight: bold;
+margin-left: 6rem;
 display: block; 
 color: black; 
 font-family: "Brush Script MT";
 }
 
 bawahan_menu {
-  background-color: antiquewhite;
+  background-color: rgb(251, 212, 163);
   width: 100%;
   margin-block: 0;
   display: block;
@@ -73,21 +75,6 @@ footer {
   width: 100%;
   height: 40px;
   background-color: #3d5126;
-}
-
-.box {
-  color: #000000;
-  font-family: 'Brush Script MT';
-  font-weight: bold;
-  display: flex;
-  padding: 3px;
-  width: 500px;
-  font-size: 20px;
-  border-radius: 5px;
-  border: 1px solid #070707;
-  margin-right: 10px;
-  background-color: rgb(252, 223, 188);
-  box-shadow: 1px 2px 26px #c6c6c6;
 }
 
 .btn {
@@ -112,6 +99,8 @@ footer {
   padding-left: 54px;
   min-height: 83svh;
   position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .cartlist {
@@ -141,4 +130,86 @@ footer {
 
 .plus:hover {
   background-color: #47a34f;
+}
+
+.box {
+  color: #000000;
+  font-family: 'Brush Script MT';
+  font-weight: bold;
+  display: flex;
+  padding: 3px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #1a1a1a;
+  margin-right: 10px;
+  background-color: rgb(251, 212, 163);
+  box-shadow: 1px 2px 20px #c6c6c6;
+}
+
+.img_box {
+  width: fit-content;
+  margin-left: 15px;
+}
+
+.cards{
+  width: 250px;
+  padding: 18px;
+  border: 1px solid #070707;
+  border-radius: 10px;
+  margin-top: 45px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  background-color: rgb(251, 212, 163);
+  box-shadow: 3px 5px 15px #888888;
+}
+
+.description{
+  font-family: 'Brush Script MT';
+  font-weight: bold;
+  font-size: 21px;
+  margin-left: 7px;
+}
+
+.add_to_cart{
+  display: flex;
+  padding: 13px;
+  font-size: 20px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+  color: azure;
+  background-color: #36843d;
+}
+
+.add_to_cart:hover{
+  background-color: #2d7133;
+}
+
+.add_to_cart:disabled{
+  background-color: #888888;
+}
+
+.notification{
+  color: #47a34f;
+}
+
+.abis_item{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: 'Brush Script MT';
+font-weight: bold;
+display: flex;
+padding: 20px 35px;
+height: 2rem;
+font-size: 30px;
+border-radius: 8px;
+position: absolute;
+border: 1px solid #2f2f2f;
+background-color: rgb(251, 212, 163);
+box-shadow: 4px 5px 10px 1px #b0b0b0;
 }

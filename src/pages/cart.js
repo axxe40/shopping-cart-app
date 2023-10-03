@@ -28,7 +28,7 @@ export default function Home() {
         <div className='list-container' style={{ minHeight: "63vh" , position: "relative" }}>
           {cartItem.length > 0 ? cartItem.map((item) => (
               <Cartlist key={item.id} item={item} cartItem={cartItem} setCartItem={setCartItem} />
-            )) : <p style={{position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}>Abis itemnya</p> }  
+          )) : <p className="abis_item" > No items have been added to cart </p> }  
           </div>
           <p style={{ borderBottom: "5px solid black", width: "70%", position: "absolute", left: "52%", transform: "translateX(-50%)", bottom: "5em" }} />
           <p className='box' style={{

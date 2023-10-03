@@ -82,7 +82,7 @@ function Cartlist({ item, cartItem, setCartItem }) {
 
     return (
         <div style={{ display: "flex", justifyContent: "space-between", width: "50%", minWidth: 490, marginBottom: "20px", marginTop: "19px", marginLeft: "auto", marginRight: "auto" }}>
-            <div className="box item" style={{ width: "100%", display: "flex", justifyContent: "space-evenly" }}>
+            <div className="box" style={{ width: "100%", display: "flex", justifyContent: "space-evenly" }}>
                 <p > {nama} </p>
                 <p style={{ marginRight: "3px" }}>| harga: {harga} </p>
                 <p style={{ marginRight: "5px" }}>| Quantity: {quantity} </p>
